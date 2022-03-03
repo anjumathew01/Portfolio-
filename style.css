@@ -46,3 +46,21 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+/* about section image css */
+.imageAboutPage {
+    width: 300;
+    height: 430;
+    margin: 0px 40px 0px 0px;
+    float: left;
+}
+
+skills_text{
+    overflow:hidden;
+}
+
+.skills{
+    margin: 150px 40px 0px 0px;
+}
+
+
