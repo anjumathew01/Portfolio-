@@ -1,6 +1,7 @@
 /* hero background image */
 .navbar{
     width: 100%;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -8,6 +9,7 @@
     justify-content: center;
     align-items: center;
     z-index: 9;
+    background: #1a1a1a;
 }
 .navbar-nav{
     list-style: none;
@@ -55,12 +57,100 @@
     float: left;
 }
 
-skills_text{
-    overflow:hidden;
-}
+
 
 .skills{
     margin: 150px 40px 0px 0px;
 }
 
+.contact-section{
+    top: 0;
+    transition: 1s;
+    padding: 100px 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+}
 
+.imageContactPage{
+    width: 370;
+    height: 480;
+    margin-top: 50px;
+
+}
+
+#msg{
+    height: 280px;
+    width: 500px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #A8CABA;
+}
+
+.about-container{
+    padding: 50px;
+    margin-top: 100px;
+    padding-right: 50px;
+    background-color: #091e22;
+    height: 600px;
+}
+
+.contact-section{
+    padding-top: 100px;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #091e22;
+    height: 500px;
+}
+
+.container-skills{
+    padding-top: 1px;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #091e22;
+    height: 600px;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+
+.form-submit-btn{
+    background: #4b6176;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h1{
+    color:white;
+}
+p{
+    color: white;
+}
+li{
+    color:white;
+}
+h2{
+    color:white;
+}
+h4{
+    color:white;
+}

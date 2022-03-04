@@ -1,3 +1,4 @@
+<body>
 <link rel="stylesheet" href="style.css">
 <nav class="navbar">
     <div class="container">
@@ -35,7 +36,7 @@
 
 <!-- about section-->
 <section id="about">
-    <div class="container mt-4 pt-4">
+    <div class="about-container">
         <h1 class="text-center">About Me</h1>
         <div class="row mt-4">
             <div class="col-lg-4">
@@ -73,22 +74,27 @@
 
 <!-- resume section-->
 <section id="resume">
-    <div class="container mt-5 pt-5">
-        <h1 class="Skills">My Skills</h1>
+    <div class="container-skills">
+        <h1 class="Skills">Relevant Work Experience</h1>
         <div class="row mt-5">
 
             <div class="col-lg-9">
                     
                 </p>
                 <div class="skills_text">
-                    <p> I've lived in Oregon my entire life. I went to school in Portland up until college and then moved to Corvallis to attend Oregon State University. Go beavs! I'm majoring in Computer Science with a minor in Business so I am pretty busy most of the time with school, but I'm able to stay involved in many of my favorite activities.
-                        I've played tennis the entirety of my life and am part of the club team here at OSU. I used to be one of the officers that helped run the club and facitiliate practice up unit recently. I'm also part of the Indian Student Association which is a club that puts on cultural events, usually a couple times a term. On top of those two things, 
-                        I work two part time jobs. I'm an intern for 4g clinical, a Portland based company specializing in randomization and trial and supply management. I interned with them last summer and really enjoyed my work so I have been continuing to work part time throughout the school year. I'm also an Undergraduate Learning Assistant for intro to 
-                        Usability at OSU. I took the class my Sophomore year and was very interested in the topics covered and have been a ULA ever since.
+                    <h2> 4g Clinical</h2>
+                    <h4> Process Automation & Project Management Inter</h4>
+                    <p> Built an automated system validation tool leveraging agile software development methodology, saving an estimated half software test analyst FTE (~$50k).
+                        Integrated object-oriented python script with excel to output a file containing crucial randomization and trial supply management data.
+                        Processed and modelled Smartsheet project data from 2016-2020 in Jira/Confluence for better timeline oversight and analysis.
+                        Created JQL filters and dashboard for better project management in Jira, enabling more balanced project staffing.
                     </p>
+                    <p>_________________________________________________________________________________________________________________________________________________________________</p>
+                    <h2> Oregon State University</h2>
+                    <h4> Undergraduate Learning  </h4>
                     <p>
-                        Among some of the things I love are hiking, reading, and huskies. Living in the PNW I find it impossible to not love hiking since there are so many beautiful trails everywhere. I try to go on one hike every two weeks once it hits summer time. As for reading, I used to be much more into it, but I do feel once I hit college the time I had to allot
-                        to it became much less. As for huskies, I just love them.
+                        Evaluated student projects and provided substantive feedback to improve student work.
+
                     </p>
                 </div>
             </div>
@@ -96,15 +102,17 @@
 </section>
 
 <!-- contact section -->
-<section class="contact-section">
+<section class="contact-section" id="contact">
     <form class="contact-form">
+        <h1 class="text-center">Contact Me</h1>
         <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
         <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
         <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
         <button type="submit" class="form-submit-btn">contact</button>
     </form>
     <!-- map -->
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448181.163742937!2d76.81306771991275!3d28.647279935262464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1639489002410!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div class="image-conact">
+        <img src="images/smile.jpeg" class= "imageContactPage" alt="">
     </div>
 </section>
+</body>
